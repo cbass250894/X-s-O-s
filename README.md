@@ -22,21 +22,21 @@ A game having two players alternately opting X’s and O’s between two horizon
 
 # Agents Used
 
-# Expectimax Agent
+### Expectimax Agent
 - The Expectimax search algorithm uses game theory to maximize expected utility. It's a tweak on the Minimax algorithm. Expectimax does not assume that the adversary (the minimizer) is playing optimally. This is handy for simulating situations when opponent agents aren't ideal or their behaviors are random.
 
 - The Expectimax algorithm aids in exploiting non-optimal opponents. Because opponents are unpredictable, Expectimax can 'take a chance' and end up in a state with a higher utility than Minimax (not optimal).
 
 - The Chance nodes calculate the 'anticipated utility' by averaging all available utilities.
 
-# Minimax Agent
+### Minimax Agent
 - Minimax is a recursive technique for determining the best move for a player given that the opponent is also playing optimally. Its purpose, as the name implies, is to minimize the maximum loss (minimize the worst case scenario)
 
 - The Minimax algorithm relies on a back-and-forth between the two players, with the player whose "turn it is" aiming for the highest score. In turn, the opposing player determines the scores for each of the available moves by determining which of its potential moves has the lowest score.
 
 - This function uses minimax() to assess all available movements before returning the best move the maximizer can make.
 
-# Alpha- Beta Agent
+### Alpha- Beta Agent
 
 - Alpha-beta pruning is a common algorithm modification that uses a less strict criterion for deciding when to delete nodes from a tree. 
 
@@ -48,7 +48,7 @@ A game having two players alternately opting X’s and O’s between two horizon
 
 - This involves two parameters, Alpha and Beta, for future expansion. It's called alpha-beta pruning.
 
-# Q learning Agent
+### Q learning Agent
 
 - Whereas in general game theory methods, such as the min-max algorithm, the algorithm assumes a perfect opponent who is so rational that each step it takes is to maximize its reward and minimize our agent reward, reinforcement learning does not even assume a model of the opponent, and the result can be surprisingly good.
 
