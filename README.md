@@ -2,7 +2,7 @@
 The submitted file is for the Term Project for the course Introduction to Artificial Intelligence (DSCI-6612-01),Spring 2022. 
 The group members for this project are Chandrasheker Bassetti and Nikhilsai Pachipulusu.
 
-A Tic-Tac-Toe game is developed using different artificial intelligence agents namely
+A Tic-Tac-Toe game is developed using different artificial intelligence agents.
 We have implemented the game using the following four agents with their variations: Expectimax, Minimax, Alpha- Beta, Q learning and Approximate Q learning algorithms.
 
 # X’s and O’s Game
